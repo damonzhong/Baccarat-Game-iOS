@@ -25,15 +25,6 @@ iPhone 11 Pro Max
   - This was acomplished through the use of pan gestures
   
   ![chip_pan_gesture](https://user-images.githubusercontent.com/70302984/134261805-3e55c368-88fd-400c-810a-32b3046045b2.gif)
-
-  
-## Diffculties along the way:
-  I struggled in the beginning to implement my must have feature of drag and drop
-  - I first tried dragging and dropping images which was not the function or feature for this project
-  - That was more for dragging and dropping images onto a view, which might be what I need to implement some future improvements to my game
-  - With the given amount of time I was not able to implement constraints for my views, which I feel terrible about
-  - I really wanted to make sure the game logic was working correctly along with the betting system.
-  - The drag and drop, and animations for the overall UI took a lot of time, especially when faced with bugs 
   
 ## Future Improvements to the game:
   - Features to add is chart as a container view at the top horizontally that displays and keeps track of winners from each round
