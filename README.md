@@ -1,9 +1,10 @@
 # Baccarat-Game-iOS
 Simple single page Baccarat game created with MVC design archiecture
 
+![chip_pan_gesture](https://user-images.githubusercontent.com/70302984/134259658-1cca3671-0044-4ba0-a211-c581ce406d7a.gif)
 
 
-https://user-images.githubusercontent.com/70302984/134259212-e03949ef-eb9a-446e-833f-9f42e76561af.mp4
+
 
 
 
