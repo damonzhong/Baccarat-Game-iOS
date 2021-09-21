@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA8EC069257C7D50005DACE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8EC068257C7D50005DACE5 /* AppDelegate.swift */; };
+		AA8EC06B257C7D50005DACE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8EC06A257C7D50005DACE5 /* SceneDelegate.swift */; };
+		AA8EC06D257C7D50005DACE5 /* BaccaratTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8EC06C257C7D50005DACE5 /* BaccaratTableView.swift */; };
+		AA8EC070257C7D50005DACE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8EC06E257C7D50005DACE5 /* Main.storyboard */; };
+		AA8EC072257C7D54005DACE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8EC071257C7D54005DACE5 /* Assets.xcassets */; };
+		AA8EC075257C7D54005DACE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8EC073257C7D54005DACE5 /* LaunchScreen.storyboard */; };
+		AA8EC07D257C7D71005DACE5 /* PlayingCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8EC07C257C7D71005DACE5 /* PlayingCards.swift */; };
+		AAA70EF825809491000B643E /* CasinoChip25.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA70EF525809491000B643E /* CasinoChip25.png */; };
+		AAA70EF925809491000B643E /* CasinoChip100.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA70EF625809491000B643E /* CasinoChip100.png */; };
+		AAA70EFA25809491000B643E /* CasinoChip5.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA70EF725809491000B643E /* CasinoChip5.png */; };
+		AAAA772825803F49006A8476 /* DealerBaccarat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA772725803F49006A8476 /* DealerBaccarat.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA8EC065257C7D50005DACE5 /* BaccaratGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaccaratGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8EC068257C7D50005DACE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA8EC06A257C7D50005DACE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA8EC06C257C7D50005DACE5 /* BaccaratTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaccaratTableView.swift; sourceTree = "<group>"; };
+		AA8EC06F257C7D50005DACE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA8EC071257C7D54005DACE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA8EC074257C7D54005DACE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA8EC076257C7D54005DACE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8EC07C257C7D71005DACE5 /* PlayingCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCards.swift; sourceTree = "<group>"; };
+		AAA70EF525809491000B643E /* CasinoChip25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CasinoChip25.png; sourceTree = "<group>"; };
+		AAA70EF625809491000B643E /* CasinoChip100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CasinoChip100.png; sourceTree = "<group>"; };
+		AAA70EF725809491000B643E /* CasinoChip5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CasinoChip5.png; sourceTree = "<group>"; };
+		AAAA772725803F49006A8476 /* DealerBaccarat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerBaccarat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8EC062257C7D50005DACE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8EC05C257C7D50005DACE5 = {
+			isa = PBXGroup;
+			children = (
+				AA8EC067257C7D50005DACE5 /* BaccaratGame */,
+				AA8EC066257C7D50005DACE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8EC066257C7D50005DACE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8EC065257C7D50005DACE5 /* BaccaratGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8EC067257C7D50005DACE5 /* BaccaratGame */ = {
+			isa = PBXGroup;
+			children = (
+				AAA70EF425809317000B643E /* Images */,
+				AA8EC068257C7D50005DACE5 /* AppDelegate.swift */,
+				AA8EC06A257C7D50005DACE5 /* SceneDelegate.swift */,
+				AA8EC07C257C7D71005DACE5 /* PlayingCards.swift */,
+				AAAA772725803F49006A8476 /* DealerBaccarat.swift */,
+				AA8EC06C257C7D50005DACE5 /* BaccaratTableView.swift */,
+				AA8EC06E257C7D50005DACE5 /* Main.storyboard */,
+				AA8EC071257C7D54005DACE5 /* Assets.xcassets */,
+				AA8EC073257C7D54005DACE5 /* LaunchScreen.storyboard */,
+				AA8EC076257C7D54005DACE5 /* Info.plist */,
+			);
+			path = BaccaratGame;
+			sourceTree = "<group>";
+		};
+		AAA70EF425809317000B643E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AAA70EF525809491000B643E /* CasinoChip25.png */,
+				AAA70EF725809491000B643E /* CasinoChip5.png */,
+				AAA70EF625809491000B643E /* CasinoChip100.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8EC064257C7D50005DACE5 /* BaccaratGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8EC079257C7D54005DACE5 /* Build configuration list for PBXNativeTarget "BaccaratGame" */;
+			buildPhases = (
+				AA8EC061257C7D50005DACE5 /* Sources */,
+				AA8EC062257C7D50005DACE5 /* Frameworks */,
+				AA8EC063257C7D50005DACE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaccaratGame;
+			productName = CSC690FinalProject;
+			productReference = AA8EC065257C7D50005DACE5 /* BaccaratGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8EC05D257C7D50005DACE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Damon Zhong";
+				TargetAttributes = {
+					AA8EC064257C7D50005DACE5 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = AA8EC060257C7D50005DACE5 /* Build configuration list for PBXProject "BaccaratGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8EC05C257C7D50005DACE5;
+			productRefGroup = AA8EC066257C7D50005DACE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8EC064257C7D50005DACE5 /* BaccaratGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8EC063257C7D50005DACE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA70EFA25809491000B643E /* CasinoChip5.png in Resources */,
+				AA8EC075257C7D54005DACE5 /* LaunchScreen.storyboard in Resources */,
+				AA8EC072257C7D54005DACE5 /* Assets.xcassets in Resources */,
+				AAA70EF925809491000B643E /* CasinoChip100.png in Resources */,
+				AA8EC070257C7D50005DACE5 /* Main.storyboard in Resources */,
+				AAA70EF825809491000B643E /* CasinoChip25.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8EC061257C7D50005DACE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8EC06D257C7D50005DACE5 /* BaccaratTableView.swift in Sources */,
+				AA8EC069257C7D50005DACE5 /* AppDelegate.swift in Sources */,
+				AA8EC07D257C7D71005DACE5 /* PlayingCards.swift in Sources */,
+				AA8EC06B257C7D50005DACE5 /* SceneDelegate.swift in Sources */,
+				AAAA772825803F49006A8476 /* DealerBaccarat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA8EC06E257C7D50005DACE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8EC06F257C7D50005DACE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA8EC073257C7D54005DACE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8EC074257C7D54005DACE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA8EC077257C7D54005DACE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA8EC078257C7D54005DACE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8EC07A257C7D54005DACE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BaccaratGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dzhong.sfsu.edu.BaccaratGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA8EC07B257C7D54005DACE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BaccaratGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dzhong.sfsu.edu.BaccaratGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8EC060257C7D50005DACE5 /* Build configuration list for PBXProject "BaccaratGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8EC077257C7D54005DACE5 /* Debug */,
+				AA8EC078257C7D54005DACE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8EC079257C7D54005DACE5 /* Build configuration list for PBXNativeTarget "BaccaratGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8EC07A257C7D54005DACE5 /* Debug */,
+				AA8EC07B257C7D54005DACE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8EC05D257C7D50005DACE5 /* Project object */;
+}
