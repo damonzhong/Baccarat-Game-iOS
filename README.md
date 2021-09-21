@@ -1,14 +1,6 @@
 # Baccarat-Game-iOS
 Simple single page Baccarat game created with MVC design archiecture
 
-![chip_pan_gesture](https://user-images.githubusercontent.com/70302984/134261447-91ec429f-e66e-4db3-b24e-4ae9d8e29000.gif)
-
-
-
-
-
-
-
 # Version of XCode
 XCode Version 11.1
 
