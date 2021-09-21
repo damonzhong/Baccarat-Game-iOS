@@ -1,8 +1,6 @@
 # Baccarat-Game-iOS
 Simple single page Baccarat game created with MVC design archiecture
 
-![chip_pan_gesture](https://user-images.githubusercontent.com/70302984/134261805-3e55c368-88fd-400c-810a-32b3046045b2.gif)
-
 ![chip_pan_gesture](https://user-images.githubusercontent.com/70302984/134261447-91ec429f-e66e-4db3-b24e-4ae9d8e29000.gif)
 
 
@@ -27,10 +25,15 @@ iPhone 11 Pro Max
   - To clear the bets in the container, press "CLEAR"
   - To start the game press "START" button
   
+  ![chip_pan_gesture](https://user-images.githubusercontent.com/70302984/134261447-91ec429f-e66e-4db3-b24e-4ae9d8e29000.gif)
+ 
 ## Specific features:
   - the purpose was to have the betting feel close to real life
   - It was important to me to have the drag and drop feature to imitate the feeling on placing bets with chips
   - This was acomplished through the use of pan gestures
+  
+  ![chip_pan_gesture](https://user-images.githubusercontent.com/70302984/134261805-3e55c368-88fd-400c-810a-32b3046045b2.gif)
+
   
 ## Diffculties along the way:
   I struggled in the beginning to implement my must have feature of drag and drop
