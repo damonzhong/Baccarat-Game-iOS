@@ -8,8 +8,14 @@ XCode Version 11.1
 iPhone 11 Pro Max 
 
 ## MVC: 
-  -  The baccarat table as a whole is used as the view
+  -  The baccarat table along with the chips in the window count as the view
+  -  Placing chips on the bet sections triggers the controller 
+  ![Baccarat_View](https://user-images.githubusercontent.com/70302984/134600428-b5bb0109-5eb7-4deb-b771-264ef7a56f24.png)
+  ![Baccarct_control_1](https://user-images.githubusercontent.com/70302984/134600487-7d35bd56-c1d3-454f-b014-52b53df036ac.png)    
+
   -  The betting table is the model which updates the controller
+  ![Baccarat_control_2](https://user-images.githubusercontent.com/70302984/134600523-3d8e94a2-e674-47c1-a840-d1ebfa43f9b7.png)  
+
   -  The controller in this project is the "Baccarat Dealer" that handles distributing and deducting bet amounts for the user
 
 ## Game functions:
